@@ -25,7 +25,7 @@ Start by preserving and reviewing the July 2026 portable PowerShell Windows Inve
 
 Python is the current candidate for a coordinator, but the architecture and implementation details are not yet finalized.
 
-See [Roadmap](docs/ROADMAP.md), [Architecture](docs/ARCHITECTURE.md) and [Contributing](CONTRIBUTING.md).
+See [Roadmap](docs/ROADMAP.md), [Architecture](docs/ARCHITECTURE.md), [Inventory format comparison](docs/INVENTORY-FORMAT-COMPARISON.md), [Removal safety policy](docs/REMOVAL-SAFETY-POLICY.md) and [Contributing](CONTRIBUTING.md).
 
 ## Privacy and security
 
