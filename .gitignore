@@ -179,3 +179,15 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# HIM local inventory data and secrets (never commit)
+inventories/
+inventory-output/
+data/
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+.env.*
+!.env.example
