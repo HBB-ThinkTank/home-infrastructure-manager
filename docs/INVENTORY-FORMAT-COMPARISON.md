@@ -96,6 +96,10 @@ Note: full confidence in a program *never* being used by other applications is g
 - Microsoft process creation auditing: https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4688
 - osquery process auditing: https://github.com/osquery/osquery/blob/master/docs/wiki/deployment/process-auditing.md
 
+## Field-level analysis
+
+The exhaustive mapping of all source-code-defined Windows v1.1 JSON fields, including explicit information-loss assessment and validation gaps, is in [Legacy field mapping](LEGACY-FIELD-MAPPING.md). The historical JSON snapshot itself still requires byte-level inspection before claiming successful validation.
+
 ## Next research tasks
 
 - Compare *sample* Windows Inventory v1.1 JSON field-by-field, not just top-level keys.
